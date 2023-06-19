@@ -194,7 +194,8 @@ function run(){
 
 function store(){
     myArray = {}
-    docs = [] myArray.name = "doc"
+    docs = []
+    myArray.name = "doc"
     myArray.html = html.value
     myArray.css = css.value
     myArray.js = js.value
